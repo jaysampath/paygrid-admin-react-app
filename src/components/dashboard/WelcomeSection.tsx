@@ -34,7 +34,7 @@ export const WelcomeSection: React.FC<WelcomeSectionProps> = ({ name, message })
   return (
     <WelcomeContainer>
       <WelcomeBanner>
-        <h1>Welcome back, {name}!</h1>
+        <h1>Welcome back, {name}!!!</h1>
         <p>{message}</p>
       </WelcomeBanner>
     </WelcomeContainer>
